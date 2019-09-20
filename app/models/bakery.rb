@@ -32,8 +32,12 @@ class Bakery
     end
 
     def average_calories
-
-
+        total_calories = 0
+        self.desserts.each {|food|total_calories+=food.calories}
+        total_desserts_made = self.desserts.length
+        total_calories
+        average_cals = total_calories/total_desserts_made
+        average_cals
     end
 
     def self.all
