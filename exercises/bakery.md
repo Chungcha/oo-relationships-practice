@@ -16,37 +16,37 @@ Create the necessary methods to connect these classes.
 
 #### Bakery
 
-- #ingredients
+X #ingredients
   - should return an array of ingredients for the bakery's desserts
-- #desserts
+X #desserts
   - should return an array of desserts the bakery makes
 - #average_calories
   - should return a number totaling the average number of calories for the desserts sold at this bakery
-- .all
+X .all
   - should return an array of all bakeries
-- #shopping_list
+# #shopping_list
   - should return a string of names for ingredients for the bakery
 
 #### Desserts
 
-- #ingredients
+X #ingredients
   - should return an array of ingredients for the dessert
-- #bakery
+X #bakery
   - should return the bakery object for the dessert
-- #calories
+# #calories
   - should return a number totaling all the calories for all the ingredients included in that dessert
-- .all
+X .all
   - should return an array of all desserts
 
 #### Ingredients
 
-- #dessert
+X #dessert
   - should return a dessert object for that ingredient
-- #bakery
+X #bakery
   - should return the bakery object for the bakery that uses that ingredient
-- .all
+X .all
   - should return an array of all ingredients
-- .find_all_by_name(ingredient)
+X .find_all_by_name(ingredient)
   - should take a string argument return an array of all ingredients that
     include that string in their name
     - .find_all_by_name('chocolate') might return ['chocolate sprinkles',
