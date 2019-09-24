@@ -24,19 +24,19 @@ relationships.* What method can I call on a movie to find all its actors, etc?
 
 #### Movie
 
-- .most_actors
+X .most_actors
   - should return the movie which has the most actors in it. this is so the
     studio knows never to hire that director again because he/she makes
     expensive movies
 
 #### Show
 
-- #on_the_big_screen
+X #on_the_big_screen
   - should return Movies that share the same name as this Show
 
 #### Character
 
-- .most_appearances
+X .most_appearances
   - should return which character of film/television appears in the most films
     or tv shows
 

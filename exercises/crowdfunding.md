@@ -18,16 +18,16 @@ backed his/her projects, etc?
 
 #### User
 
-- .highest_pledge
+X .highest_pledge
   - returns the user who has made the highest pledge
-- .multi_pledger
+X .multi_pledger
   - returns all users who have pledged to multiple projects
-- .project_creator
+X .project_creator
   - returns all users who have created a project
 
 #### Project
 
-- .no_pledges
+X .no_pledges
   - returns all projects which have no pledges yet
 - .above_goal
   - returns all projects which have met or exceeded their pledge goal
@@ -36,7 +36,7 @@ backed his/her projects, etc?
 
 #### Pledge
 
-- #project
+X #project
   - returns the project associated with a particular pledge
-- #user
+X #user
   - returns the user associated with a particular pledge

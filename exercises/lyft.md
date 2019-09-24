@@ -19,7 +19,7 @@ Create the necessary methods to connect these classes.
   - returns all drivers a passenger has ridden with
 - #rides
   - returns all rides a passenger has been on
-- .all
+X .all
   - returns an array of all passengers
 - #total_distance
   - should calculate the total distance the passenger has travelled with the
@@ -40,9 +40,9 @@ Create the necessary methods to connect these classes.
 
 #### Ride
 
-- #passenger
+X #passenger
   - returns the passenger object for that ride
-- #driver
+X #driver
   - returns the driver object for that ride
-- .average_distance
+X .average_distance
   - should find the average distance of all rides

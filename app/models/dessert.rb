@@ -18,10 +18,6 @@ class Dessert
             ingredient.dessert == self
         end  
     end
-
-
-
-
     
     def calories
         calories = []

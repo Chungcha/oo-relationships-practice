@@ -21,7 +21,7 @@ etc?
 
 #### Client
 
-- #assign_trainer
+X #assign_trainer
   - should take a trainer as argument and assign it to the client
 
 #### Location
@@ -31,5 +31,5 @@ etc?
 
 #### Trainer
 
-- .most_clients
+X .most_clients
   - should find which trainer has the most clients. give that trainer a bonus!

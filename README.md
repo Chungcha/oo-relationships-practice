@@ -12,7 +12,7 @@ Relationships. The descriptions for these exercises are located in the
 `exercises` directory. At the top of each file is a level indicating whether it
 is an easy, medium or hard domain. Harder levels include more models or more
 complex relationships. The harder models also include less explicit instructions
-about what methods to write. You should work to derive the methods that need to
+about what methods to write. You should work to derive the methods that need t
 be defined from the relationship information given.
 
 #### Easy
